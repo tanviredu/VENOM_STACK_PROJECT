@@ -18,7 +18,7 @@ app.use(express.static("static"))
 
 // route goes here 
 app.use('/api',userRouter);
-app.use('/',transactionRouter);
+app.use('/transaction',transactionRouter);
 
 
 
